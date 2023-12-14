@@ -6,4 +6,10 @@ if (question === null){
     document.getElementById('response-image'). src = 'BAD IMAGE'
 
 }
+
+if(!question.trim()) {
+    alert('Please enter a valid question!')
+    return
+}
+
 }
