@@ -65,5 +65,5 @@ function shakeMagic8Ball() {
 const responseText = document.getElementById('response-text');
 responseText.innerText = answer;
 responseText.classList = `display-4 ${color}`;
-document.getElementById('response-image'). src = `img/$(image);
+document.getElementById('response-image'). src = `img/$(image)`;
 }
