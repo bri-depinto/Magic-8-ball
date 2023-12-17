@@ -6,7 +6,9 @@ body{
 footer{
     background-color:rgb(36, 12, 102);
  color: white;
+ position: bottom;
 }
+
 h1{
    font-family: 'Rubik Doodle Shadow';
    font-size: 350%;
@@ -18,11 +20,21 @@ h1{
     color: white;
 }
 .btn{
-    color: yellow;
-    background-color: navy;
+    color: rgb(255, 217, 0);
+    background-color: black;
     font-family:'Kalnia' ;
+    outline: black;
+font-size: 140%;
 
+    
 }
+
+.btn:hover{
+background-color: black;
+color: red;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 .try{
     width: 400px;
     height: 500px;
