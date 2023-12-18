@@ -18,17 +18,17 @@ function shakeMagic8Ball() {
     switch(randomNumber){
         case 0:
             answer = "yes";
-            image = "yes.png" //change this;
+            image = "/imgs/yes.png" //change this;
             color = "text-success";
             break;
         case 1:
             answer = "no";
-            image = "yes.png" //change this;
+            image = "/imgs/yes.png" //change this;
             color = "text-danger";
             break;
         case 2:
             answer = "maybe";
-            image = "yes.png" //change this;
+            image = "/imgs/yes.png" //change this;
             color = "text-info";
             break;
         case 3:
@@ -66,6 +66,6 @@ const responseText = document.getElementById('response-text');
 responseText.innerText = answer;
 responseText.classList = `display-4 ${color}`;
 
-document.getElementById('response-image').src = `$(image)`;
+document.getElementById('response-image').src = `imgs/$(image)`;
 
 }
