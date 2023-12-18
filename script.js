@@ -1,5 +1,5 @@
 function shakeMagic8Ball() {
-    const question = prompt('Ask the Magic 8-Ball a question');
+    const question = prompt('Ask the Magic 8-Ball a question:');
     if (question === null) {
         document.getElementById('response-text').innerText = 'Please ask a question!'
         document.getElementById('response-text').classList = 'display text-danger'
@@ -18,42 +18,42 @@ function shakeMagic8Ball() {
     switch(randomNumber){
         case 0:
             answer = "yes";
-            image = "yes-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-success";
             break;
         case 1:
             answer = "no";
-            image = "no-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-danger";
             break;
         case 2:
             answer = "maybe";
-            image = "maybe-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-info";
             break;
         case 3:
             answer = "very doubtful";
-            image = "verydoubtful-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-warning";
             break;
         case 4:
             answer = "as I see it yes";
-            image = "asiseeityes-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-sucess";
             break;
         case 5:
             answer = "most likley";
-            image = "most likley-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-success";
             break;
         case 6:
             answer = "ask again";
-            image = "askagain-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-dark";
             break;
         case 7:
             answer = "outlook good";
-            image = "outlookgood-image.jpg" //change this;
+            image = "yes.png" //change this;
             color = "text-success";
             break;
         default:
@@ -65,5 +65,7 @@ function shakeMagic8Ball() {
 const responseText = document.getElementById('response-text');
 responseText.innerText = answer;
 responseText.classList = `display-4 ${color}`;
-document.getElementById('response-image'). src = `img/$(image)`;
+
+document.getElementById('response-image').src = `$(image)`;
+
 }
