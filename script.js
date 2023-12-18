@@ -23,37 +23,37 @@ function shakeMagic8Ball() {
             break;
         case 1:
             answer = "no";
-            image = "imgs/yes.png" //change this;
+            image = "imgs/no.png" //change this;
             color = "text-danger";
             break;
         case 2:
             answer = "maybe";
-            image = "imgs/yes.png" //change this;
+            image = "imgs/maybe.png" //change this;
             color = "text-info";
             break;
         case 3:
             answer = "very doubtful";
-            image = "yes.png" //change this;
+            image = "imgs/no.png" //change this;
             color = "text-warning";
             break;
         case 4:
             answer = "as I see it yes";
-            image = "yes.png" //change this;
-            color = "text-sucess";
+            image = "imgs/yes.png" //change this;
+            color = "text-success";
             break;
         case 5:
             answer = "most likley";
-            image = "yes.png" //change this;
+            image = "imgs/yes.png" //change this;
             color = "text-success";
             break;
         case 6:
             answer = "ask again";
-            image = "yes.png" //change this;
+            image = ".png" //change this;
             color = "text-dark";
             break;
         case 7:
             answer = "outlook good";
-            image = "yes.png" //change this;
+            image = "imgs/yes.png" //change this;
             color = "text-success";
             break;
         default:
