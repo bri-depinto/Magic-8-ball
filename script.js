@@ -3,7 +3,7 @@ function shakeMagic8Ball() {
     if (question === null) {
         document.getElementById('response-text').innerText = 'Please ask a question!'
         document.getElementById('response-text').classList = 'display text-danger'
-        document.getElementById('response-image').src = 'BAD IMAGE'
+        document.getElementById('response-image').src = 'no.png'
         return
     }
 
@@ -42,14 +42,14 @@ function shakeMagic8Ball() {
             color = "text-success";
             break;
         case 5:
-            answer = "most likley";
+            answer = "most likely";
             image = "imgs/yes.png" //change this;
             color = "text-success";
             break;
         case 6:
             answer = "ask again";
-            image = ".png" //change this;
-            color = "text-dark";
+            image = "imgs/redo.png" //change this;
+            color = "text-info";
             break;
         case 7:
             answer = "outlook good";
